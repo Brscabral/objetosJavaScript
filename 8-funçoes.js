@@ -13,7 +13,7 @@ const cliente={
     } ],
     saldo: 100,
     depositar:function(valor){
-        this.saldo +=valor; //this quer dizer esse saldo mesmo
+       return this.saldo +=valor; //this quer dizer esse saldo mesmo
     }
        
    }
