@@ -32,6 +32,6 @@ telefone: '99345799',
 } ]
 }
 ]
-//const listaDependente=[...cliente[0].dependentes,...cliente[1].dependentes]
-//console.table(listaDependente)
-cliente.dependentes.forEach(dependentes =>console.log(dependentes[info]))
+const listaDependente=[...cliente[0].dependentes,...cliente[1].dependentes]
+console.table(listaDependente)
+
